@@ -8,10 +8,10 @@ namespace exercicioAumento
     {
         public int id { get; set; }
 
-        public 
+      
 
         public string nome { get; set; }
-        private double salario { get; set; }
+        public double salario { get; set; }
 
         public void setSalario( double salario)
         {

@@ -24,7 +24,7 @@ namespace ContaBancaria
         {
             if (saldo <= valor)
             {
-                saldo -= valor;
+                saldo -= saldo;
             }
             return saldo;
         }
